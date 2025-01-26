@@ -1,27 +1,94 @@
-Project Title and Description:
+# SRE Project - Reishell
 
-sre-project-reishell In this repository you are going to learn how to apply the best practices for version controls with Git in collaboration groups and also practice for improve your habilities.
-Getting Started:
+## Overview
 
-Ensure that you have the following installed:
-* Git(for version control).
-* Visual Studio Code.
-Usage Examples:
+Reishell is a project designed to showcase core Site Reliability Engineering (SRE) practices through the development and automation of a shell-based application. The project demonstrates SRE principles such as reliability, scalability, observability, and automation while solving real-world challenges.
 
-Once that you created the repository and applied the rules for safe use of the repository you can for example add an API to continue the practice.
-Features:
+## Features
 
-* Permission Control : Define what each role can or cannot do.
-* Using branches, pull requests and issues.
-Contributing:
+- **Automation:** Streamlined workflows using shell scripts.
+- **Monitoring:** Integrated logging and alerting systems for enhanced observability.
+- **Scalability:** Configurations designed to handle growing demands efficiently.
+- **Error Handling:** Robust mechanisms for identifying and addressing system errors.
 
-Here are the steps to get started:
-1. Fork the repository to your GitHub account.
-2. Clone the forked repository to your local machine. git clone https://github.com/your-username/your-repo-name.git
-3. Create a new feature branch for your changes. git checkout -b feature/your-feature-name
-4. Make your changes and commit them with clear and descriptive message. git commit -m "Your message"
-5. Push the changes to your fork: git push origin feature/your-feature-name
-6. Create a pull request on the original repository with a description of the changes made.
-License:
+## Table of Contents
 
-MIT License
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/reish-fdz-jnz/sre-project-reishell.git
+   cd sre-project-reishell
+   ```
+
+2. **Install Dependencies:**
+   - Ensure you have Bash and core Linux utilities installed.
+   - Install any required packages mentioned in `requirements.txt` or the script documentation.
+
+3. **Set Up Environment Variables:**
+   - Copy the `.env.example` file to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Update the environment variables in `.env` as needed.
+
+## Usage
+
+Run the main script using:
+```bash
+./reishell.sh
+```
+
+### Available Commands
+
+| Command         | Description                                 |
+|------------------|---------------------------------------------|
+| `start`         | Starts the application.                    |
+| `stop`          | Stops the application.                     |
+| `status`        | Displays the current application status.    |
+| `logs`          | Shows the application logs.                |
+
+### Example
+
+```bash
+./reishell.sh start
+```
+
+## Contributing
+
+We welcome contributions to improve Reishell. To contribute:
+
+1. **Fork the Repository:** Click the "Fork" button on the top-right corner of the repository page.
+2. **Clone Your Fork:**
+   ```bash
+   git clone https://github.com/<your-username>/sre-project-reishell.git
+   ```
+3. **Create a Branch for Your Feature:**
+   ```bash
+   git checkout -b feature/improve-readme
+   ```
+4. **Commit Your Changes:**
+   ```bash
+   git add .
+   git commit -m "Improved README with installation and usage instructions"
+   ```
+5. **Push to Your Fork:**
+   ```bash
+   git push origin feature/improve-readme
+   ```
+6. **Open a Pull Request:** Go to the original repository and open a pull request, describing the changes you made.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
+
+---
