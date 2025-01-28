@@ -3,15 +3,11 @@
 In this repository you are going to learn how to apply the best practices for version controls with Git in collaboration groups and also practice for improve your habilities.
 
 ## Table of Contents
-  - [Repository Contents](#repository-contents)
   - [Getting Started](#getting-started)
-  - [Step 1: Fork the Repository](#fork-the-repository)
-  - [Step 2: Clone Your Fork Locally](#clone-your-fork-in-your-machine)
-  - [Step 3: Create a New Branch](#create-a-new-branch)
   - [Contribution Guidelines](#contribution-guidelines)
+  - [Features](#features)
   - [License](#license)
 
-## Repository Contents
 
 ## Getting started:
 
